@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bank Detals Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1 id="heading">Welcome to bank Details finder website</h1>
+
+    <div id="inputBoxes">
+        <input type="text" name="IFSC" value="SBIN0000813" id="ifsc" />
+        <button type="button" onclick="findDetails()" id="findBtn">Find Details</button>
+    </div>
+    <button class="clearBtn" onclick="clearDetails()">Clear details</button>
+    <br> <br>
+    <div>
+      <table id="myTable">  
+        <tr>
+          <td>MICR</td>
+          <td>560002057</td>
+        </tr>
+        <tr>
+          <td>BANK</td>
+          <td>State Bank of India</td>
+        </tr>
+        <tr>
+          <td>BRANCH</td>
+          <td>BANGALORE</td>
+        </tr>
+        <tr>
+          <td>ADDRESS</td>
+          <td>POST BAG NO.5310, STATE BANK ROAD, BANGLORE 560001</td>
+        </tr>
+        <tr>
+          <td>CONTACT</td>
+          <td>""</td>
+        </tr>
+        <tr>
+          <td>CITY</td>
+          <td>BANGALORE</td>   
+        </tr>
+        <tr>
+          <td>DISTRICT</td>
+          <td>BANGALORE URBAN</td>
+        </tr>
+        <tr>
+          <td>STATE</td>
+          <td>KARNATAKA</td>
+        </tr>
+        <tr>
+          <td>BANKCODE</td>
+          <td>SBI</td>
+        </tr>
+      </table>
+      
+    </div>
+  </body>
+</html>
